@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "889956688445",
+    "project_id": "quizzes-ac940",
+    "storage_bucket": "quizzes-ac940.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889956688445:android:0aae1b604f983e990e8054",
+        "android_client_info": {
+          "package_name": "com.example.quizzes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMrGrfPieDZ_yqTgnTAbJTRp6onF1pZDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
