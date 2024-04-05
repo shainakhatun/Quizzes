@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,7 +24,7 @@
             style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/stay_connected"
+            android:text="Stay connected"
             android:textColor="@color/dark_blue"
             android:textStyle="bold"/>
 
@@ -33,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/enter_your_email_address_and_password_n_to_get_access_to_yur_account"
+            android:text="Enter your email address and password \n to get access to your account"
             android:textStyle="bold"
             android:textColor="@color/dark_blue"/>
 
@@ -43,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:textSize="16sp"
-            android:hint="@string/email2"
+            android:hint="Email"
             android:padding="10dp"
             android:ems="10"
             android:background="@color/light_blue"
@@ -57,7 +58,7 @@
             android:layout_marginTop="16dp"
             android:background="@color/light_blue"
             android:textSize="16sp"
-            android:hint="@string/password2"
+            android:hint="Password"
             android:padding="10dp"
             android:ems="10"
             android:inputType="textPassword"
@@ -70,27 +71,27 @@
             android:layout_marginTop="16dp"
             android:background="@color/light_blue"
             android:textSize="16sp"
-            android:hint="@string/password3"
+            android:hint="Confirm password"
             android:padding="10dp"
             android:ems="10"
             android:inputType="textPassword"
             android:autofillHints="" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sign_up"
+            android:text="Sign up"
             android:layout_marginTop="24dp"
             android:textAllCaps="false"
             android:textStyle="bold"
             android:background="@color/dark_blue"/>
 
         <TextView
-            android:id="@+id/btnSignUp"
+            android:id="@+id/txtAlreadyHaveAccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/already_have_an_account"
+            android:text="Already have an account"
             android:textAlignment="center"
             android:textStyle="bold"
             android:textColor="@color/dark_blue"
@@ -106,7 +107,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="@string/todo4" />
+        app:layout_constraintStart_toStartOf="parent"/>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

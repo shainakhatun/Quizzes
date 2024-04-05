@@ -15,4 +15,6 @@
     <color name="grey">#FF9E9E9E</color>
     <color name="light_grey">#FFBDBDBD</color>
     <color name="light_blue">#EDF8F7</color>
+    <color name="sky">#E0F8FB</color>
+    <color name="purple_700">#FF3700B3</color>
 </resources>
